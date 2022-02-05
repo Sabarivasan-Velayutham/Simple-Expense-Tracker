@@ -1,0 +1,273 @@
+
+#background
+{
+	background-image: url('backgr.jpg');
+	background-position: top ;
+	animation-name: example;
+	animation-duration: 50s;
+}
+
+@keyframes example 
+{
+	25%   {background-color: red;}
+	25%  {background-color: yellow;}
+	50%  {background-color: blue;}
+	100% {background-color: green;}
+}
+
+#topbar
+{
+    position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 10%;
+	background-color: darkblue;
+	text-align: center;
+	font-size: larger;
+	color: white;
+}
+
+#head-id
+{
+	margin-right: 125px;
+}
+
+#logo
+{
+	float: left;
+	width: 66px;
+	height: 53px;
+	margin-left: 18px;
+	margin-top: 6px;
+}
+
+#navigation 
+{
+	margin-left: 882px;
+	margin-top: -42px;
+}
+
+#navigation button
+{
+	border-color: black;
+	width: 25%;
+	height: 40px;
+	color: black;
+	font-size: medium;
+	border-radius: 12px;
+	box-shadow: 0 8px 16px 0 red, 0 6px 20px 0 red;
+}
+
+#body
+{
+    margin-top: 8%;
+	
+}
+    
+#expense
+{
+    float: left;
+    margin-left: 10%;
+}
+
+#expanse-div 
+{
+	display: inline-flex;
+	color: white;
+	background-color: rgb(24, 51, 59);
+	border-radius: 40px;
+	float: left;
+	margin-block-start: 100px;
+	margin-left: -227px;
+}
+
+.expense-table 
+{
+	background-color: rgb(24, 51, 59);
+	color: white;
+	border: 0px solid;
+	border-radius: 4px;
+	width: 575px;
+	height: 75px;
+	padding: 20px;
+	display: table;
+	font-size: large;
+}
+
+#form-table 
+{
+	float: left;
+	margin-left: -472px;
+	margin-top: 200px;
+	display: flex;
+	padding: 24px;
+	background-color: violet;
+	border-radius: 22px;
+}
+
+th 
+{
+	color: red;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	justify-items: safe;
+	padding-bottom: 4%;
+}
+
+td
+{
+	text-align: center;
+}
+
+#category
+{
+    float: right;
+    margin-right: 15%;
+}
+
+#category-box 
+{
+	
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	background-color: rgb(24, 51, 59);
+	margin: 20px;
+	padding: 30px;
+	width: 371px;
+	border-radius: 40px;
+	height: 233px;
+	float: right;
+	margin-right: -303px;
+	margin-top: 90px;
+	font-size: large;
+}
+
+#create-category-table {
+	float: right;
+	margin-top: 27%;
+	display: flex;
+	background-color: violet;
+	border-radius: 22px;
+	margin-right: -30%;
+}
+    
+.add-new-category 
+{
+	color: black;
+	border: 3px solid;
+	border-radius: 4px;
+	width: 367px;
+	height: 81px;
+	padding: 30px;
+	display: inline-block;
+}
+
+.add-new-category span
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 7px;
+
+}
+
+.title 
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 300px;
+	margin: 0px 200px;
+	margin-top: 10px;
+	margin-left: 40px;
+	border-bottom-color: white;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+}
+
+#value
+{
+	font-size: 15px;
+	width: 200px;
+} 
+
+#button
+{
+	border-color: black;
+	width: 118%;
+	height: 40px;
+	color: black;
+	font-size: medium;
+	border-radius: 12px;
+}
+
+#button:hover 
+{
+	background-color: red;
+}  
+
+#button-block
+{
+    block-size: 0px;
+}
+
+#expense-submit
+{
+	border-color: black;
+	width: 100%;
+	height: 40px;
+	color: black;
+	font-size: medium;
+	border-radius: 12px;
+}
+
+#expense-submit:hover 
+{
+	background-color: red;
+} 
+
+.form-input
+{
+	background-color: rgba(0, 0, 0, 164);
+	padding: 8px 10px ;
+	border: 1px solid white;
+	border-radius: 4px;
+	color: white;
+}
+
+.add-new-expense span
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 7px;
+}
+
+.text
+{
+    font-weight: bold;
+    font-size: larger;
+    margin-left: 42px;
+}
+
+.card
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	background-color: rgb(24, 51, 59);
+	margin: 20px;
+	padding: 30px;
+	width: 700px;
+	border-radius: 40px;
+}
+
+#display-info 
+{
+	margin-top: 20%;
+	margin-left: 25%;
+	font-size: x-large;
+}
