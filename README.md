@@ -10,7 +10,6 @@ can also be added to those new entries ...
 The only thing which is not available in this website is that when you refresh the page , all the data stored will also get erased , since no storage handling has been implemented ...
 </h3>
 
-<h3>Website link : </h3>
 
-```sabari-expense-tracker.netlify.app```
+## [Visit My Website](https://sabari-expense-tracker.netlify.app)
 
