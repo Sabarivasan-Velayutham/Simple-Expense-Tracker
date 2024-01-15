@@ -13,3 +13,4 @@ The only thing which is not available in this website is that when you refresh t
 
 ## [Visit My Website](https://sabari-expense-tracker.netlify.app)
 
+![image](https://github.com/Sabarivasan-Velayutham/Simple-Expense-Tracker/assets/84288319/d785c6c1-a8f3-4c26-b841-3acda0fcb8ec)
